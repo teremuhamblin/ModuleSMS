@@ -1,1 +1,17 @@
+# ============================================================
+#   FUNDING.yml — Soutien Opérationnel TeremuHamblin
+#   Légion étrangère • 2e REP • Modules Termux tactiques
+# ============================================================
+
 github: teremuhamblin
+
+custom:
+  - https://paypal.me/teremuhamblin
+  - https://ko-fi.com/teremuhamblin
+  - https://www.patreon.com/teremuhamblin
+
+# Votre soutien renforce le développement des modules tactiques :
+ • SMS Ops (ModuleSMS)
+ • Kali-Legion
+ • Scripts Python/Bash opérationnels
+ • Environnements Termux militaires
