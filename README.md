@@ -14,8 +14,12 @@
    - ✔ Sauvegarde automatique
 
 ### 📦 Installation
+```clone git
 git clone https://github.com/teremuhamblin/ModuleSMS
+```
+```text
 cd ModuleSMS
+```
 
 ### 🚀 Utilisation rapide
 ```bash
