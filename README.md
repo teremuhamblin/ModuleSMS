@@ -13,6 +13,54 @@
    - ✔ Monitoring en temps réel dans termux
    - ✔ Sauvegarde automatique
 
+### 🎯 Structure du projet
+```text
+ModuleSMS/
+│
+├── src/
+│   ├── bash/
+│   │   ├── dump_sms.sh
+│   │   ├── monitor_sms.sh
+│   │   └── export_sms.sh
+│   ├── python/
+│   │   ├── parser.py
+│   │   ├── stats.py
+│   │   └── export_json.py
+│   └── termux/
+│       ├── sms_dump.py
+│       └── sms_watch.py
+│
+├── config/
+│   ├── profiles/
+│   │   ├── default.conf
+│   │   └── legion.conf
+│   └── settings.yaml
+│
+├── docs/
+│   ├── INSTALL.md
+│   ├── USAGE.md
+│   └── API.md
+│
+├── tests/
+│   ├── test_parser.py
+│   └── test_stats.py
+│
+├── examples/
+│   ├── sample_output.json
+│   └── demo.sh
+│
+├── .github/
+│   ├── workflows/
+│   │   ├── ci.yml
+│   │   └── security.yml
+│   ├── ISSUE_TEMPLATE.md
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   ├── FUNDING.yml
+│   └── SECURITY.md
+│
+└── README.md
+```
+
 ### 📦 Installation
 ```clone git
 git clone https://github.com/teremuhamblin/ModuleSMS
