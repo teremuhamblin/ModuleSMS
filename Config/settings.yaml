@@ -1,0 +1,3 @@
+sms:
+  auto_export: true
+  watch_interval: 2
